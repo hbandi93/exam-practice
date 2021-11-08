@@ -25,7 +25,7 @@ a img {
 
 button, a {
     cursor: pointer;
-    color: inherit
+    color: inherit;
 }
 
 textarea {
@@ -36,4 +36,48 @@ button, input, textarea, select {
     appearance: none !important;
     -webkit-appearance: none !important;
     border-radius: 0
+}
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#first {
+    background-color: #00ffff;
+    z-index: 1;
+}
+
+#second {
+    background-color: #8a2be2;
+    z-index: 1;
+}
+
+#third {
+    background-color: #1e90ff;
+    z-index: 1;
+}
+
+button {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 80px;
+    height: 20px;
+}
+
+#btn1 {
+    background-color: #006400;
+    z-index: 2;
+}
+
+#btn2 {
+    background-color: #8b0000;
+    z-index: 2;
+}
+
+#btn3 {
+    background-color: #ff00ff;
+    z-index: 2;
 }
